@@ -1,0 +1,1 @@
+# midot-assets
