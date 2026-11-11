@@ -12,8 +12,42 @@
   // Template values: "ambos", "reporte", "mindsafe".
   // For each new user, add an entry with their email and desired template.
   var USERS = {
-    "adrian.torres@midot.com": { template: "ambos", name: "Adrian Torres", title: "" }
-  };
+   "adrian.torres@midot.com": {
+    template: "ambos",
+    name: "Adrian Torres",
+    title: "IT LATAM",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5554315428"
+  },
+
+  "giorgio.dacol@midot.com": {
+    template: "reporte",
+    name: "Giorgio Da Col",
+    title: "MARKETING SPECIALIST ENTERPRISE",
+    company: "MIDOT",
+    region: "LATAM",
+    phone: "5512566353"
+  },
+
+  "paola.uribe@midot.com": {
+    template: "reporte",
+    name: "Paola Uribe",
+    title: "HEAD OF SALES ENTERPRISE",
+    company: "MIDOT",
+    region: "MÉXICO Y PERÚ",
+    phone: "5580223418"
+  },
+
+  "lorena.mercado@midot.com.mx": {
+    template: "mindsafe",
+    name: "Lorena Mercado",
+    title: "HEAD OF SALES MINDSAFE LATAM",
+    company: "MindSafe",
+    region: "LATAM",
+    phone: "5515255027"
+  }
+};
 
   var BANNERS = {
     reporte: {
@@ -45,24 +79,57 @@
   }
 
   function renderSignature(email, user) {
-    var profile = Office.context.mailbox.userProfile;
-    var name = user.name || (profile && profile.displayName) || email;
-    var html = '<table role="presentation" border="0" cellpadding="0" cellspacing="0">' +
-      '<tr><td><font face="Arial" color="#242424" size="3"><b>' + escapeHtml(name) +
-      '</b></font></td></tr>' +
-      (user.title ? '<tr><td><font face="Arial" size="2">' + escapeHtml(user.title) + '</font></td></tr>' : '') +
-      '<tr><td><font face="Arial" size="2">MIDOT</font></td></tr>' +
-      '<tr><td><font face="Arial" size="2"><a href="mailto:' + escapeHtml(email) + '">' +
-      escapeHtml(email) + '</a></font></td></tr></table>';
+  var profile = Office.context.mailbox.userProfile;
+  var name = user.name ||
+    (profile && profile.displayName) || email;
 
-    if (user.template === "ambos" || user.template === "reporte") {
-      html += renderBanner(BANNERS.reporte);
-    }
-    if (user.template === "ambos" || user.template === "mindsafe") {
-      html += renderBanner(BANNERS.mindsafe);
-    }
-    return html;
+  var html =
+    '<table role="presentation" border="0" cellpadding="0" cellspacing="0">' +
+
+    '<tr><td><font face="Arial" color="#242424" size="3"><b>' +
+    escapeHtml(name) +
+    '</b></font></td></tr>' +
+
+    (user.title ?
+      '<tr><td><font face="Arial" size="2">' +
+      escapeHtml(user.title) +
+      '</font></td></tr>' : '') +
+
+    (user.company ?
+      '<tr><td><font face="Arial" size="2">' +
+      escapeHtml(user.company) +
+      '</font></td></tr>' : '') +
+
+    (user.region ?
+      '<tr><td><font face="Arial" size="2">' +
+      escapeHtml(user.region) +
+      '</font></td></tr>' : '') +
+
+    (user.phone ?
+      '<tr><td><font face="Arial" size="2">Cel.: ' +
+      escapeHtml(user.phone) +
+      '</font></td></tr>' : '') +
+
+    '<tr><td><font face="Arial" size="2"><a href="mailto:' +
+    escapeHtml(email) + '">' +
+    escapeHtml(email) +
+    '</a></font></td></tr>' +
+
+    '</table>';
+
+  if (user.template === "ambos" ||
+      user.template === "reporte") {
+    html += renderBanner(BANNERS.reporte);
   }
+
+  if (user.template === "ambos" ||
+      user.template === "mindsafe") {
+    html += renderBanner(BANNERS.mindsafe);
+  }
+
+  return html;
+}
+
 
   function setMidotSignature(event) {
     var completed = false;
