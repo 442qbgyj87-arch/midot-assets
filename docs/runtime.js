@@ -5,6 +5,9 @@
 (function () {
   "use strict";
 
+  Office.onReady();
+  console.info("[MIDOT] Runtime cargado");
+
   // ALLOWLIST: no signature is inserted for anyone not listed here.
   // Template values: "ambos", "reporte", "mindsafe".
   // For each new user, add an entry with their email and desired template.
