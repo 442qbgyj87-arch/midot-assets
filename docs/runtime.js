@@ -42,9 +42,9 @@
   "lorena.mercado@midot.com.mx": {
     template: "mindsafe",
     name: "Lorena Mercado",
-    title: "HEAD OF SALES MINDSAFE LATAM",
+    title: "HEAD OF SALES MINDSAFE México & LATAM",
     company: "MindSafe",
-    region: "LATAM",
+    region: "México & LATAM",
     phone: "5515255027"
   }
 };
