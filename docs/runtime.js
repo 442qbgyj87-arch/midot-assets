@@ -22,6 +22,17 @@
   },
 
     
+   "jimena.sandoval@midot.com.mx": {
+    template: "ambos",
+    name: "Jimena Ramírez Sandoval",
+    title: "SUPPORT SPECIALIST",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5539503816"
+  },
+
+
+    
    "jackelyne.leon@midot.com": {
     template: "mindsafe",
     name: "Jackelyne León Palomino",
