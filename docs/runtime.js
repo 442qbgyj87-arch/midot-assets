@@ -20,8 +20,44 @@
     region: "LATAM",
     phone: "5554315428"
   },
+ 
+   "marelynduarte@midot.com.mx": {
+    template: "ambos",
+    name: "Marelyn González",
+    title: "TRAINING SPECIALIST",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5579337935"
+  },
+
+   "cristina.carreon@midot.com.mx": {
+    template: "ambos",
+    name: "Cristina Carreón",
+    title: "TRAINING SPECIALIST",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5545751823"
+  },
+
+   "gabriel.hernandez@midot.com.mx": {
+    template: "reporte",
+    name: "Gabriel Hernandez",
+    title: "ACCOUNT MANAGER",
+    company: "MIDOT",
+    region: "MÉXICO",
+    phone: "4421425417"
+  },
+
+   "carlos.giraldo@midot.com": {
+    template: "reporte",
+    name: "Carlos Giraldo",
+    title: "SALES MANAGER ENTERPRISE",
+    company: "MIDOT",
+    region: "PERÚ",
+    phone: "51 993832159"
+  },
   
-    "malory.zuluaga@midot.com": {
+   "malory.zuluaga@midot.com": {
     template: "reporte",
     name: "Malory Zuluaga",
     title: "KEY ACCOUNT MANAGER LATAM",
