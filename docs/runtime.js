@@ -20,6 +20,17 @@
     region: "LATAM",
     phone: "5554315428"
   },
+
+    
+   "jackelyne.leon@midot.com": {
+    template: "mindsafe",
+    name: "Jackelyne León Palomino",
+    title: "SALES MANAGER MINDSAFE",
+    company: "MindSafe",
+    region: "PERÚ",
+    phone: "51 959895539"
+  },
+
  
    "marelynduarte@midot.com.mx": {
     template: "ambos",
