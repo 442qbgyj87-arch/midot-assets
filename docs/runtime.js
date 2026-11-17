@@ -20,6 +20,15 @@
     region: "LATAM",
     phone: "5554315428"
   },
+  
+    "malory.zuluaga@midot.com": {
+    template: "reporte",
+    name: "Malory Zuluaga",
+    title: "KEY ACCOUNT MANAGER LATAM",
+    company: "MIDOT",
+    region: "LATAM",
+    phone: "+57 3182623959"
+  },
 
   "giorgio.dacol@midot.com": {
     template: "reporte",
