@@ -99,11 +99,12 @@
 
   "paola.uribe@midot.com": {
     template: "reporte",
-    name: "Paola Uribe",
+    name: "Paola Uribe Góméz",
     title: "HEAD OF SALES ENTERPRISE",
     company: "MIDOT",
     region: "MÉXICO Y PERÚ",
-    phone: "5580223418"
+    phone: "(+52) 5580223418",
+    Web: "www.midot.com"
   },
 
   "lorena.mercado@midot.com.mx": {
