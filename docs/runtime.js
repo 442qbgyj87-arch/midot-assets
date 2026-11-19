@@ -101,9 +101,7 @@
     template: "reporte",
     name: "Paola Uribe Góméz",
     title: "HEAD OF SALES ENTERPRISE",
-    company: "MIDOT",
-    region: "MÉXICO Y PERÚ",
-    phone: "(+52) 5580223418",
+    Mobile: "(+52) 5580223418",
     Web: "www.midot.com"
   },
 
