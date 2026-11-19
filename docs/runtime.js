@@ -171,17 +171,29 @@
       escapeHtml(user.region) +
       '</font></td></tr>' : '') +
 
-    (user.phone ?
-      '<tr><td><font face="Arial" size="2">Cel.: ' +
-      escapeHtml(user.phone) +
-      '</font></td></tr>' : '') +
+    
+(user.phone ?
+  '<tr><td><font face="Arial" size="2">' +
+  (user.contactStyle === "english" ? "Mobile: " : "Cel.: ") +
+  escapeHtml(user.phone) +
+  '</font></td></tr>' : '') +
 
-    '<tr><td><font face="Arial" size="2"><a href="mailto:' +
-    escapeHtml(email) + '">' +
-    escapeHtml(email) +
-    '</a></font></td></tr>' +
 
-    '</table>';
+   
+'<tr><td><font face="Arial" size="2">' +
+(user.contactStyle === "english" ? "E-mail: " : "") +
+'<a href="mailto:' + escapeHtml(email) + '">' +
+escapeHtml(email) +
+'</a></font></td></tr>' +
+
+(user.web ?
+  '<tr><td><font face="Arial" size="2">Web: ' +
+  '<a href="https://' + escapeHtml(user.web) + '">' +
+  escapeHtml(user.web) +
+  '</a></font></td></tr>' : '') +
+
+'</table>';
+
 
   if (user.template === "ambos" ||
       user.template === "reporte") {
