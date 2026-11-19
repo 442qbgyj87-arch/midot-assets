@@ -44,7 +44,7 @@
 
    // Eliana: BU sin definir; no insertar firma hasta confirmar plantilla.
    "eliana.velez@midot.com": {
-    template: null,
+    template: "ambos",
     name: "Eliana Vélez",
     title: "Administrative Assistant",
     company: "MIDOT",
