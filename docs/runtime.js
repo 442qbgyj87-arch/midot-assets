@@ -33,6 +33,25 @@
 
 
     
+   "catalina.pemberty@midot.com": {
+    template: "ambos",
+    name: "Catalina Pemberty",
+    title: "Support Specialist",
+    company: "MIDOT",
+    region: "Colombia",
+    phone: "57 3183434714"
+  },
+
+   // Eliana: BU sin definir; no insertar firma hasta confirmar plantilla.
+   "eliana.velez@midot.com": {
+    template: null,
+    name: "Eliana Vélez",
+    title: "Administrative Assistant",
+    company: "MIDOT",
+    region: "Colombia",
+    phone: "57 3103776729"
+  },
+
    "jackelyne.leon@midot.com": {
     template: "mindsafe",
     name: "Jackelyne León Palomino",
