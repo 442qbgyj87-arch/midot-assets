@@ -12,6 +12,33 @@
   // Template values: "ambos", "reporte", "mindsafe".
   // For each new user, add an entry with their email and desired template.
   var USERS = {
+   "ariana.sanchez@midot.com.mx": {
+    template: "reporte",
+    name: "Ariana Sánchez",
+    title: "KEY ACCOUNT MANAGER",
+    company: "MIDOT",
+    region: "MÉXICO",
+    phone: "5541902351"
+  },
+
+   "pricila.alcala@midot.com.mx": {
+    template: "reporte",
+    name: "Pricila Alcalá",
+    title: "KEY ACCOUNT MANAGER",
+    company: "MIDOT",
+    region: "MÉXICO",
+    phone: "5560527645"
+  },
+
+   "zully.sanchez@midot.com.mx": {
+    template: "reporte",
+    name: "Zully Sánchez",
+    title: "KEY ACCOUNT MANAGER",
+    company: "MIDOT",
+    region: "MÉXICO",
+    phone: "9991753267"
+  },
+
    "adrian.torres@midot.com": {
     template: "ambos",
     name: "Adrian Torres",
