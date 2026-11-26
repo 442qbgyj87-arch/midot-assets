@@ -73,7 +73,7 @@
     name: "Paula Mesa",
     title: "Key Account Manager",
     company: "MIDOT",
-    region: "Colombia",
+    region: "COLOMBIA",
     phone: "57 3183410684"
   },
 
@@ -82,7 +82,7 @@
     name: "Juliana Gómez",
     title: "Key Account Manager Latam",
     company: "MIDOT",
-    region: "Latam",
+    region: "LATAM",
     phone: "57 3123923924"
   },
 
@@ -180,7 +180,7 @@
     name: "Fabián Agudelo",
     title: "Key Account Manager Mindsafe",
     company: "MindSafe",
-    region: "Colombia",
+    region: "COLOMBIA",
     phone: "57 3102090320"
   },
 
@@ -262,7 +262,7 @@
     name: "Catalina Pemberty",
     title: "Support Specialist",
     company: "MIDOT",
-    region: "Colombia",
+    region: "COLOMBIA",
     phone: "57 3183434714"
   },
 
@@ -272,7 +272,7 @@
     name: "Eliana Vélez",
     title: "Administrative Assistant",
     company: "MIDOT",
-    region: "Colombia",
+    region: "COLOMBIA",
     phone: "57 3103776729"
   },
 
@@ -352,9 +352,9 @@
   "lorena.mercado@midot.com.mx": {
     template: "mindsafe",
     name: "Lorena Mercado",
-    title: "HEAD OF SALES MINDSAFE México & LATAM",
+    title: "HEAD OF SALES MINDSAFE LATAM",
     company: "MindSafe",
-    region: "México & LATAM",
+    region: "LATAM",
     phone: "5515255027"
   }
 };
