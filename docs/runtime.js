@@ -32,6 +32,15 @@
     phone: "8112665578"
   },
 
+  "lorena.parra@midot.com.mx": {
+    template: "ambos",
+    name: "Lorena Parra",
+    title: "TELEMEETING COORDINATOR LATAM",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5580223120"
+  },
+
   "alejandra.santamaria@midot.com.mx": {
     template: "reporte",
     name: "Alejandra Santamaría",
