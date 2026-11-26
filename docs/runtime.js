@@ -59,6 +59,52 @@
     phone: "5543939610"
   },
 
+  // Pilotos adicionales Outlook clasico: conservar firma local Action1 durante pruebas.
+  "victor.melgarejo@midot.com.mx": {
+    template: "mindsafe",
+    name: "Víctor Melgarejo",
+    title: "KEY ACCOUNT MANAGER MINDSAFE",
+    company: "MindSafe",
+    region: "MÉXICO",
+    phone: "5619989469"
+  },
+
+  "tereza.mayer@midot.com.mx": {
+    template: "ambos",
+    name: "Tereza Mayer",
+    title: "HEAD OF MARKETING & E-COMMERCE",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5579166324"
+  },
+
+  "lilith.sanchez@midot.com.mx": {
+    template: "ambos",
+    name: "Lilith Sánchez",
+    title: "HEAD OF HUMAN RESOURCES LATAM",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5580576776"
+  },
+
+  "mariella.reyes@midot.com": {
+    template: "reporte",
+    name: "Mariella Reyes",
+    title: "KEY ACCOUNT MANAGER",
+    company: "MIDOT",
+    region: "PERÚ",
+    phone: "51 919292381"
+  },
+
+  "jean.macavilca@midot.com": {
+    template: "ambos",
+    name: "Jean Macavilca",
+    title: "TELEMEETING REPRESENTATIVE",
+    company: "MIDOT-MindSafe",
+    region: "PERÚ",
+    phone: "51 908853270"
+  },
+
   "alejandra.santamaria@midot.com.mx": {
     template: "reporte",
     name: "Alejandra Santamaría",
