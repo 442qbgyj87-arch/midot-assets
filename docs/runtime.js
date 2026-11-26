@@ -41,6 +41,24 @@
     phone: "5580223120"
   },
 
+  "claudia.vazquez@midot.com.mx": {
+    template: "ambos",
+    name: "Claudia Vázquez",
+    title: "SALES SUPPORT SPECIALIST",
+    company: "MIDOT-MindSafe",
+    region: "LATAM",
+    phone: "5585801933"
+  },
+
+  "facturacion.cobranza@midot.com.mx": {
+    template: "ambos",
+    name: "Angélica Mejía",
+    title: "BILLING AND COLLECTION SPECIALIST",
+    company: "MIDOT-MindSafe",
+    region: "MÉXICO",
+    phone: "5543939610"
+  },
+
   "alejandra.santamaria@midot.com.mx": {
     template: "reporte",
     name: "Alejandra Santamaría",
